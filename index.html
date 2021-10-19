@@ -13,23 +13,23 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Campo minato</a>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="justify-content-end">
                     <form class="d-flex justify-content-end">
                         <label class="d-flex align-items-center pe-2" for="my-select">Difficoltà:</label>
-                        <select class="form-select me-2" aria-label="Default select example">
+                        <select class="form-select me-2" aria-label="Default select example" id="selected-game">
                             <option value="1">Facile</option>
                             <option value="2">Medio</option>
                             <option value="3">Difficile</option>
                         </select>
-                        <button class="btn btn-outline-success" type="submit">Gioca!</button>
+                        <button class="btn btn-outline-success" id="btn-start" type="button">Gioca!</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="mb-5 mt-5">
         <section class="container">
-            <div class="box-container"></div>
+            <div id="box-container"></div>
         </section>
     </main>
     <footer></footer>
